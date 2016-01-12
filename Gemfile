@@ -45,3 +45,8 @@ gem 'sqlite3', '1.3.9'
   #paul added 1/12/16
   gem 'better_errors'
 end
+
+group :production do
+	gem 'pg', '0.17.1'
+	gem 'rails_12factor', '0.0.2'
+end
